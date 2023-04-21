@@ -20,9 +20,7 @@ public class Hamburgers {
                 beg = mid + 1;
                 res = mid;
             }
-            else {
-                end = mid - 1;
-            }
+            else end = mid - 1;
         }
         System.out.println(res);
     }
